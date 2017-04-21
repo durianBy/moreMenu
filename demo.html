@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CSS3动画</title>
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/my-moreMenu.css">
+<style type="text/css">
+
+</style>
+
+</head>
+<body>
+  <label class="filter-control" for="invalId">
+      <div class="dropdown" id="moreMenuId">
+          <a id="moreMenubt" class="form-control" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              更多条件
+              <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu  dropdown-more-menu w700" aria-labelledby="payRecord-more-menuTemp">
+          </ul>
+      </div>
+  </label>
+
+  <script src="js/jquery-1.11.1.js"></script>
+  <script src="underscore/underscore-min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/my-moreMenu.js"></script>
+  <script src="data.js"></script>
+  <script type="text/javascript">
+      //初始化更多条件
+      $.moreMenu({
+          id:"#moreMenubt",//触发更多下拉按钮
+          $el: $("#moreMenuId .dropdown-more-menu"),//更多下拉按钮容器
+          data:data
+      });
+  </script>
+</body>
+</html>

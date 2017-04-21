@@ -1,0 +1,39 @@
+var data = [{
+"name":"停车场",
+"value":[{
+        "code":"3",
+        "name":"子停车场二",
+        "querytype":"parkNo"
+    },{
+        "code":"2",
+        "name":"子停车场一",
+        "querytype":"parkNo"
+    },{
+        "code":"1",
+        "name":"停车场",
+        "querytype":"parkNo"
+    },{
+        "code":"5",
+        "name":"子停车场四",
+        "querytype":"parkNo"
+    },{
+        "code":"4",
+        "name":"子停车场三",
+        "querytype":"parkNo"
+    }],
+},{
+"name":"收费类型",
+"value":[{
+        "code":"1",
+        "name":"现金支付",
+        "querytype":"chargeType"
+    },{
+        "code":"2",
+        "name":"支付宝支付",
+        "querytype":"chargeType"
+    },{
+        "code":"3",
+        "name":"微信支付",
+        "querytype":"chargeType"
+    }],
+}]

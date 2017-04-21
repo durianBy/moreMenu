@@ -1,0 +1,42 @@
+/*更多条件样式*/
+.w700{
+    width:700px;
+}
+.dropdown-more-menu {
+    left: 0px;
+    padding: 15px;
+}
+
+.dropdown-more-menu .menuName {
+    width: 80px;
+    text-align: right;
+}
+
+.dropdown-more-menu label {
+    margin-right: 10px;
+}
+
+.dropdown-more-menu > li > .no-limited {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0 10px;
+    color: #fff;
+    background: #13B0F7;
+    border: 1px solid #13B0F7;
+}
+
+.dropdown-more-menu > li > .no-limited.usable {
+    color: #444;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.dropdown-more-menu .resetMoreBtn {
+    float: right;
+    width: auto;
+    color: #1290CA;
+}
+
+.dropdown-more-menu .resetMoreBtn:hover {
+    color: #0F7AAE;
+}
